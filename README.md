@@ -1,59 +1,57 @@
-# Frontend Mentor - Solution de profil de liens sociaux
+# Frontend Mentor -Social Links Profile Solution
 
-Il s'agit d'une solution au [Défi de profil de liens sociaux sur Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Les défis Frontend Mentor vous aident à améliorer vos compétences en codage en construisant des projets réalistes.
+This is a solution to the [Social Links Profile Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table des matières
+## Table of contents
 
-- [Aperçu](#aperçu)
-  - [Le défi](#le-défi)
-  - [Capture d'écran](#capture-décran)
-  - [Liens](#liens)
-- [Mon processus](#mon-processus)
-  - [Construit avec](#construit-avec)
-  - [Ce que j'ai appris](#ce-que-jai-appris)
-  - [Développement continu](#développement-continu)
-  - [Ressources utiles](#ressources-utiles)
-  - [Collaboration IA](#collaboration-ia)
-- [Auteur](#auteur)
-- [Remerciements](#remerciements)
+-[Preview](#preview)
+  -[The challenge](#the-challenge)
+  -[Screenshot](#screenshot)
+  -[Links](#links)
+-[My process](#my-process)
+-[Built with](#built-with)
+  -[What I learned](#what-I-learned)
+  -[Continuous development](#continuous-development)
+  -[Useful resources](#useful-resources)
+  -[AI collaboration](#collaboration-ia)
+-[Author](#author)
+-[Thanks](#thanks)
 
-## Aperçu
+## Overview
 
-Création d'une carte de profil d'un avatar proposée par Frontend Mentor. Ce projet couvre l'utilisation des variables CSS, des états de survol et de la responsivité.
+Creation of an avatar profile card proposed by Frontend Mentor. This project covers the use of CSS variables, hover states, and responsiveness.
 
-### Le défi
+### The challenge
+Create an avatar profile card with clear accessibility, a design faithful to the mockup, the use of CSS variables and good compatibility for all devices.
 
-Créer une carte de profil d'un avatar avec une accessibilité claire, un design fidèle à la maquette, l'utilisation des variables CSS et une bonne compatibilité pour tous les appareils.
+### Screenshot
 
-### Capture d'écran
+![Profile card with good accessibility](social-links-profile-main/image.png)
 
-![Carte de profil avec une bonne accessibilité](./screenshot.png)
+### Links
 
-### Liens
+-Solution URL: [GitHub Repository](https://github.com/Harena-debug/social-links-profile)
+-Live site URL: [Live demo](https://harena-debug.github.io/Card-profile/)
+## My process
 
-- URL de la solution : [GitHub Repository](https://github.com/Harena-debug/social-links-profile)
-- URL du site en direct : En cours de déploiement
+Here is the process I implemented for this profile:
 
-## Mon processus
+### Built with
 
-Voici le processus que j'ai mis en œuvre pour ce profil :
+-Semantic HTML5
+-Custom CSS variables
+-Flexbox for centering and layout
+-Mobile-first workflow
+-CSS states `:hover` and `:focus` for interactivity
+-Responsive design
 
-### Construit avec
+### What I learned
 
-- HTML5 sémantique
-- Variables CSS personnalisées
-- Flexbox pour le centrage et le layout
-- Workflow mobile-first
-- États CSS `:hover` et `:focus` pour l'interactivité
-- Design responsive
+This third project allowed me to learn:
 
-### Ce que j'ai appris
+**CSS accessibility with `:focus`**
 
-Ce troisième projet m'a permis d'apprendre :
-
-**Accessibilité CSS avec `:focus`**
-
-J'ai découvert comment rendre les liens accessibles au clavier avec un état de focus visible :
+I figured out how to make links keyboard accessible with a visible focus state:
 ```css
 a:focus {
   outline: 3px solid var(--background-hover);
@@ -61,9 +59,9 @@ a:focus {
 }
 ```
 
-**Variables CSS pour la cohérence**
+**CSS variables for consistency**
 
-L'utilisation de variables CSS m'a permis de maintenir une cohérence dans tout le design :
+Using CSS variables allowed me to maintain consistency throughout the design:
 ```css
 :root {
   --main-color: hsl(0, 0%, 8%);
@@ -74,40 +72,37 @@ L'utilisation de variables CSS m'a permis de maintenir une cohérence dans tout 
   --radius: 15px;
   --size: 0.875rem;
   --weight: 600;
-  --background-hover: hsl(75, 94%, 57%);
+--background-hover: hsl(75, 94%, 57%);
 }
 ```
 
-Cela facilite grandement les modifications futures et assure une harmonie visuelle.
+This greatly facilitates future modifications and ensures visual harmony.
 
-### Développement continu
+### Continuous development
 
-Ce projet m'a permis de découvrir l'accessibilité en CSS, mais dans les projets futurs, j'aimerais vraiment mettre en pratique :
+This project allowed me to discover accessibility in CSS, but in future projects, I would really like to put into practice:
 
-- **CSS Grid** pour des layouts plus complexes
-- **Responsive Design optimisé** avec des media queries avancées
-- **Accessibilité avancée** avec les attributs ARIA
-- **Animations CSS** avec `@keyframes`
+-**CSS Grid**for more complex layouts
+-**Optimized Responsive Design**with advanced media queries
+-**Advanced accessibility**with ARIA attributes
+-**CSS animations**with `@keyframes`
+### Useful resources
 
-### Ressources utiles
+-[freeCodeCamp](https://www.freecodecamp.org/) -A new place that I discovered and which is quite effective for learning in a structured way.
+-[W3Schools](https://www.w3schools.com/) -Always a perfect place to learn and test code in real time.
+-[MDN Web Docs](https://developer.mozilla.org/) -Reference documentation for HTML, CSS and JavaScript.
 
-- [freeCodeCamp](https://www.freecodecamp.org/) - Un nouvel endroit que j'ai découvert et qui est plutôt efficace pour apprendre de façon structurée.
-- [W3Schools](https://www.w3schools.com/) - Toujours un endroit parfait pour apprendre et tester du code en temps réel.
-- [MDN Web Docs](https://developer.mozilla.org/) - Documentation de référence pour HTML, CSS et JavaScript.
+### AI collaboration
 
-### Collaboration IA
+I collaborated with AI tools in the following ways:
+-**Tools used**: Claude and ChatGPT
+-**Type of help**: They helped me on specific points that blocked my project (centering, CSS variables, accessibility)
+-**Learning**: I took the time to understand their explanations rather than simply copying and pasting the code
 
-J'ai collaboré avec des outils IA de la manière suivante :
+## Author
 
-- **Outils utilisés** : Claude et ChatGPT
-- **Type d'aide** : Ils m'ont aidé sur des points spécifiques qui bloquaient mon projet (centrage, variables CSS, accessibilité)
-- **Apprentissage** : J'ai pris le temps de comprendre leurs explications plutôt que de simplement copier-coller le code
+-GitHub -[Harena-debug](https://github.com/Harena-debug)
+-Frontend Mentor -[@Harena-debug](https://www.frontendmentor.io/profile/Harena-debug)
 
-## Auteur
-
-- GitHub - [Harena-debug](https://github.com/Harena-debug)
-- Frontend Mentor - [@Harena-debug](https://www.frontendmentor.io/profile/Harena-debug)
-
-## Remerciements
-
-Merci à Frontend Mentor de m'avoir proposé ce défi qui m'a fait pas mal progresser. Merci aussi aux outils IA qui m'ont accompagné dans ce parcours d'apprentissage.
+## Acknowledgments
+Thanks to Frontend Mentor for offering me this challenge which helped me progress quite a bit. Thanks also to the AI ​​tools that accompanied me on this learning journey.
