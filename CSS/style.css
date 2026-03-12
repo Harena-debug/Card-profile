@@ -15,10 +15,6 @@
       --background-hover : hsl(75, 94%, 57%);;
     }
 
-    * , *::before , *::after{
-      box-sizing: border-box;
-    }
-
     body{
       margin: 0;
       background-color: var(--main-color);
