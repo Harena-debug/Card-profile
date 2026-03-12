@@ -26,7 +26,7 @@ Create an avatar profile card with clear accessibility, a design faithful to the
 
 ### Screenshot
 
-![Profile card with good accessibility](social-links-profile-main/image.png)
+![Profile card with good accessibility](image-1.png)
 
 ### Links
 
