@@ -1,0 +1,109 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    :root{
+      --main-color : hsl(0 , 0% , 8%);
+      --content-color : hsl(0, 0%, 12%);
+      --color-text : hsl(0 , 0% , 100%);
+      --font-family : "Inter" , sans-serif;
+      --background-text : hsl(0, 0%, 20%);
+      --radius : 15px;
+      --size : 0.875rem;
+      --weight : 600;
+      --background-hover : hsl(75, 94%, 57%);;
+    }
+
+    * , *::before , *::after{
+      box-sizing: border-box;
+    }
+
+    body{
+      margin: 0;
+      background-color: var(--main-color);
+      font-family: var(--font-family);
+    }
+
+    main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    article{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--content-color);
+      width: 350px;
+      border-radius: var(--radius);
+      padding-bottom: 2.5rem;
+    }
+
+    a{
+      display: block;
+      text-decoration: none;
+      color: var(--color-text);
+      font-size: var(--size);
+      background-color: var(--background-text);
+      border-radius: var(--radius);
+      text-align: center;
+      font-weight: 700;
+      padding: 0.9375rem 6.25rem;
+      transition: background-color 300ms , color 300ms;
+      margin-top: 1rem;
+    }
+
+    a:hover{
+      background-color: var(--background-hover);
+      cursor: pointer;
+      color: var(--background-text);
+    }
+
+    a:focus{
+      outline: 3px solid var(--background-hover);
+    }
+
+    .lieu{
+      margin-top: 0.0625rem;
+      font-style: normal;
+      color: var(--background-hover);
+      font-weight: 700;
+    }
+
+    .description{
+      color: var(--color-text);
+      font-weight: 400;
+    }
+
+    figure{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 1.8;
+    }
+
+    img{
+      display: block;
+      border-radius: 50%;
+      max-width: 40%;
+    }
+
+    h1{
+      font-size: 1.5625rem;
+      color: var(--color-text);
+      font-weight: var(--weight);
+      margin-bottom: 1px;
+    }
+    span{
+      color: var(--color-text);
+      font-size: var(--size);
+    }
+    @media(max-width : 375px){
+      article{
+        width: 98%;
+      }
+    }
